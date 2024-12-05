@@ -1,11 +1,19 @@
 package tbd.lab1.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "usuario")
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class UsuarioEntity {
 
-    private Integer id_usuario;
+    @Id
+    private String id;
 
     private String nombre;
 

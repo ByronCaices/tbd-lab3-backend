@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tbd</groupId>
-	<artifactId>lab1</artifactId>
+	<artifactId>lab3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ecommerce</name>
 	<description>Project for Advanced Data Bases</description>
@@ -30,11 +30,10 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.sql2o/sql2o -->
+		<!-- Spring Data MongoDB -->
 		<dependency>
-			<groupId>org.sql2o</groupId>
-			<artifactId>sql2o</artifactId>
-			<version>1.9.0-RC1</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -43,12 +42,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
