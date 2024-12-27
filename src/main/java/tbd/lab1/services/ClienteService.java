@@ -2,6 +2,7 @@ package tbd.lab1.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tbd.lab1.entities.AlmacenEntity;
 import tbd.lab1.entities.ClienteEntity;
 import tbd.lab1.repositories.ClienteRepository;
 
@@ -53,4 +54,11 @@ public class ClienteService {
         return false;
     }
 
+    public List<AlmacenEntity> findAlmacenMasCercano(Integer idCliente) {
+        return clienteRepository.getAlmacenMasCercano(idCliente);
+    }
+
+    public Double obtenerDistanciaClienteAlmacen(Integer idCliente, Integer idAlmacen) {
+        return clienteRepository.obtenerDistanciaClienteAlmacen(idCliente, idAlmacen);
+    }
 }

@@ -17,6 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @RequiredArgsConstructor
 public class AppConfig {
 
+
     private final UsuarioRepository usuarioRepository;
 
     // Configuración para que Spring Security use el repositorio de usuarios, de que forma se encriptan las contraseñas y el servicio de autenticación

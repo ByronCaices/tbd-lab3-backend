@@ -95,7 +95,7 @@ public class UsuarioRepository implements UsuarioRepositoryInt {
     }
 
     public UsuarioEntity getUsuarioId(String username) {
-        try (org.sql2o.Connection con = sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             return con.createQuery("SELECT * FROM usuario WHERE username = :username")
                     .addParameter("username", username)
                     .executeAndFetchFirst(UsuarioEntity.class);
@@ -103,7 +103,7 @@ public class UsuarioRepository implements UsuarioRepositoryInt {
     }
 
     public UsuarioEntity getUsuarioEmail(String username) {
-        try (org.sql2o.Connection con = sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             return con.createQuery("SELECT * FROM usuario WHERE email = :email")
                     .addParameter("email", username)
                     .executeAndFetchFirst(UsuarioEntity.class);

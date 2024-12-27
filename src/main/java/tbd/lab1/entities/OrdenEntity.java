@@ -16,5 +16,7 @@ public class OrdenEntity {
 
     private Integer id_cliente;
 
+    private Integer id_almacen;
+
     private BigDecimal total;
 }
