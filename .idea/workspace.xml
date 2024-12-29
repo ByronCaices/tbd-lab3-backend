@@ -5,40 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59b180b-8b49-42d0-994f-c310438250f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/AddressesCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/AddressesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/AlmacenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/entities/AlmacenEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AddressesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AlmacenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AlmacenRepositoryInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AddressesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AlmacenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Datos/trigger.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/dbCreate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbCreate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbCreate.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loadData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/loadData.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/OrderHistoryCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/OrderHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/OrderHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/entities/ClienteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/entities/ClienteEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/entities/OrdenEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/entities/OrdenEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/ClienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/ClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Datos/DBcreate.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Datos/trigger.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Datos/trigger.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -177,6 +148,8 @@
       <option name="presentableId" value="Default" />
       <updated>1735268144262</updated>
       <workItem from="1735268145639" duration="5517000" />
+      <workItem from="1735443814718" duration="1797000" />
+      <workItem from="1735496953899" duration="3155000" />
     </task>
     <servers />
   </component>
