@@ -1,7 +1,9 @@
 package tbd.lab1.config;
 
+import org.springframework.boot.CommandLineRunner;
 import tbd.lab1.entities.UsuarioEntity;
 import tbd.lab1.repositories.UsuarioRepository;
+import tbd.lab1.services.OrderHistoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -51,5 +53,13 @@ public class AppConfig {
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    CommandLineRunner runOnStartup(OrderHistoryService orderHistoryService) {
+        return args -> {
+            orderHistoryService.syncOrderHistory();
+            System.out.println("Order history synchronization completed at startup.");
+        };
     }
 }
