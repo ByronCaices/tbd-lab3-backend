@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tbd.lab1.entities.DetalleOrdenEntity;
 import tbd.lab1.services.DetalleOrdenService;
+import tbd.lab1.services.OrderHistoryService;
 
 import java.util.List;
 import java.util.Map;
@@ -15,10 +16,13 @@ import java.util.Map;
 public class DetalleOrdenController {
     @Autowired
     DetalleOrdenService detalleOrdenService;
+    @Autowired
+    OrderHistoryService orderHistoryService;
 
     @PostMapping("/")
     public ResponseEntity<DetalleOrdenEntity> saveDetalle(@RequestBody DetalleOrdenEntity detalle) {
         DetalleOrdenEntity NewDetalle = detalleOrdenService.saveDetalle(detalle);
+        orderHistoryService.createOrderHistory(NewDetalle);
         return ResponseEntity.ok(NewDetalle);
     }
 
@@ -38,6 +42,7 @@ public class DetalleOrdenController {
     public ResponseEntity<DetalleOrdenEntity> updateDetalle(@RequestBody DetalleOrdenEntity detalle) {
         boolean isUpdated = detalleOrdenService.updateDetalle(detalle);
         if (isUpdated) {
+            orderHistoryService.updateOrderHistory(detalle);
             return ResponseEntity.ok(detalle);
         } else {
             return ResponseEntity.notFound().build();
@@ -47,6 +52,7 @@ public class DetalleOrdenController {
     @DeleteMapping("/delete-detalle/{id}")
     public ResponseEntity<Boolean> deleteDetalleById(@PathVariable Integer id) throws Exception {
         detalleOrdenService.deleteDetalle(id);
+        orderHistoryService.deleteOrderHistory(id);
         return ResponseEntity.noContent().build();
     }
 

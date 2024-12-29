@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59b180b-8b49-42d0-994f-c310438250f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/OrderHistoryCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/OrderHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/OrderHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/OrderHistoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/DetalleOrdenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/DetalleOrdenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/OrderHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/OrderHistoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.EcommerceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;seba&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/seba/Documentos/TDA/lab3_tdb/tbd-lab3-backend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -149,7 +148,8 @@
       <updated>1735268144262</updated>
       <workItem from="1735268145639" duration="5517000" />
       <workItem from="1735443814718" duration="1797000" />
-      <workItem from="1735496953899" duration="3155000" />
+      <workItem from="1735496953899" duration="9104000" />
+      <workItem from="1735510323983" duration="1850000" />
     </task>
     <servers />
   </component>
