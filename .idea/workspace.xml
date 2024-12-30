@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59b180b-8b49-42d0-994f-c310438250f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/OrderHistoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/DetalleOrdenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/DetalleOrdenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/OrderHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/OrderHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbCreate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbCreate.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.EcommerceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;seba&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/seba/Documentos/TDA/lab3_tdb/tbd-lab3-backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.EcommerceApplication.executor": "Run",
+    "git-widget-placeholder": "seba",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/seba/Documentos/TDA/lab3_tdb/tbd-lab3-frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Spring Boot.EcommerceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="tbd-lab3-backend" />
@@ -149,7 +146,7 @@
       <workItem from="1735268145639" duration="5517000" />
       <workItem from="1735443814718" duration="1797000" />
       <workItem from="1735496953899" duration="9104000" />
-      <workItem from="1735510323983" duration="1850000" />
+      <workItem from="1735510323983" duration="4760000" />
     </task>
     <servers />
   </component>

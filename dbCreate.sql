@@ -194,7 +194,9 @@ BEGIN
     SET total = nuevo_total
     WHERE id_orden = p_id_orden;
 
-
+    UPDATE detalle_orden
+    SET cantidad = cantidad - p_cantidad
+    WHERE id_orden = p_id_orden AND id_producto = p_id_producto;
 
     -- Verificar si la orden debe actualizar su estado
     IF (SELECT COUNT(*) FROM detalle_orden WHERE id_orden = p_id_orden AND cantidad > 0) = 0 THEN
