@@ -11,4 +11,5 @@ public interface AlmacenRepositoryInt {
     AlmacenEntity getAlmacenById(Integer id);
     boolean updateAlmacen(AlmacenEntity almacen);
     boolean deleteAlmacen(Integer id);
+    List<ProductoEntity> obtenerProductosAlmacen(int idAlmacen);
 }
