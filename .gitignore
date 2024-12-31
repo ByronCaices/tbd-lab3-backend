@@ -27,3 +27,5 @@ mongo_data/
 servers.json/
 data/
 
+.idea/
+

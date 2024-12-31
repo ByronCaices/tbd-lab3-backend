@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59b180b-8b49-42d0-994f-c310438250f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dbCreate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dbCreate.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AlmacenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AlmacenRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +66,7 @@
     "Spring Boot.EcommerceApplication.executor": "Run",
     "git-widget-placeholder": "seba",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/seba/Documentos/TDA/lab3_tdb/tbd-lab3-frontend",
+    "last_opened_file_path": "/home/seba/Documentos/TDA/lab3_tdb/tbd-lab3-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -146,7 +153,8 @@
       <workItem from="1735268145639" duration="5517000" />
       <workItem from="1735443814718" duration="1797000" />
       <workItem from="1735496953899" duration="9104000" />
-      <workItem from="1735510323983" duration="4760000" />
+      <workItem from="1735510323983" duration="10902000" />
+      <workItem from="1735682766012" duration="4028000" />
     </task>
     <servers />
   </component>

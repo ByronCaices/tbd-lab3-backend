@@ -6,6 +6,7 @@ import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import tbd.lab1.entities.AlmacenEntity;
 import tbd.lab1.entities.OrdenEntity;
+import tbd.lab1.entities.ProductoEntity;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -136,4 +137,17 @@ public class AlmacenRepository implements AlmacenRepositoryInt{
         }
     }
 
+    public List<ProductoEntity> obtenerProductosAlmacen(int idAlmacen) {
+        String sql = "SELECT p.id_producto, p.nombre, p.stock, p.precio FROM producto p INNER JOIN "
+                + "detalle_orden d ON p.id_producto = d.id_producto INNER JOIN orden o ON o.id_orden = d.id_orden " +
+                "WHERE o.id_almacen = :idAlmacen";
+        try (Connection con = sql2o.open()) {
+            return con.createQuery(sql)
+                    .addParameter("idAlmacen", idAlmacen)
+                    .executeAndFetch(ProductoEntity.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ArrayList<>();
+        }
+    }
 }

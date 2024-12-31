@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tbd.lab1.entities.AlmacenEntity;
 import tbd.lab1.entities.OrdenEntity;
+import tbd.lab1.entities.ProductoEntity;
 import tbd.lab1.repositories.AlmacenRepository;
 
 
@@ -53,6 +54,10 @@ public class AlmacenService {
 
     public List<OrdenEntity> obtenerOrdenesCercanas(int idAlmacen, double radioKm) {
         return almacenRepository.obtenerOrdenesCercanas(idAlmacen, radioKm);
+    }
+
+    public List<ProductoEntity> obtenerProductosAlmacen(int idAlmacen) {
+        return almacenRepository.obtenerProductosAlmacen(idAlmacen);
     }
 
 }
