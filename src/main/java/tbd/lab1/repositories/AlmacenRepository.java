@@ -138,7 +138,7 @@ public class AlmacenRepository implements AlmacenRepositoryInt{
     }
 
     public List<ProductoEntity> obtenerProductosAlmacen(int idAlmacen) {
-        String sql = "SELECT p.id_producto, p.nombre, p.stock, p.precio, p.activo FROM producto p INNER JOIN "
+        String sql = "SELECT p.id_producto, p.nombre, p.stock, p.precio FROM producto p INNER JOIN "
                 + "detalle_orden d ON p.id_producto = d.id_producto INNER JOIN orden o ON o.id_orden = d.id_orden " +
                 "WHERE o.id_almacen = :idAlmacen";
         try (Connection con = sql2o.open()) {
