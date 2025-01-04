@@ -26,4 +26,11 @@ public class AddressesService {
         return addressesRepository.findByIdUser(id_user);
     }
 
+    public void deleteAddresses(String id_address) {
+        addressesRepository.deleteById(id_address);
+    }
+
+    public AddressesCollection updateAddresses(AddressesCollection address) {
+        return addressesRepository.save(address);
+    }
 }
