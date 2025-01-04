@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b701b889-5084-4606-83ab-7d1fdec722d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/EcommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/EcommerceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/AddressesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/AddressesCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/CustomerLocationCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/CustomerLocationCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/OrderHistoryCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/OrderHistoryCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/UserNearestWarehousesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/UserNearestWarehousesCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/NearestWarehousesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/NearestWarehousesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/models/UserNearestWarehousesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/UserNearestWarehousesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/NearestWarehousesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/NearestWarehousesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/AddressesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/AddressesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AddressesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AddressesService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735961442376</updated>
-      <workItem from="1735961443869" duration="2897000" />
+      <workItem from="1735961443869" duration="4231000" />
     </task>
     <servers />
   </component>

@@ -38,4 +38,24 @@ public class AddressesController {
             return ResponseEntity.badRequest().build();
         }
     }
+
+    @DeleteMapping("/delete-addresses/{id_address}")
+    ResponseEntity<Boolean> deleteAddresses(@PathVariable String id_address) {
+        try {
+            addressesService.deleteAddresses(id_address);
+            return ResponseEntity.noContent().build();
+        } catch (Exception e){
+            return ResponseEntity.badRequest().build();
+        }
+    }
+
+    @PutMapping("/update-addresses")
+    ResponseEntity<AddressesCollection> updateAddresses(@RequestBody AddressesCollection addresses) {
+        try {
+            AddressesCollection response = addressesService.updateAddresses(addresses);
+            return ResponseEntity.ok(response);
+        } catch (Exception e){
+            return ResponseEntity.badRequest().build();
+        }
+    }
 }
