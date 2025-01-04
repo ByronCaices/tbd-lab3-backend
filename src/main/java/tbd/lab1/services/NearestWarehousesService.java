@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import tbd.lab1.collections.UserNearestWarehousesCollection;
 import tbd.lab1.entities.AlmacenEntity;
 import tbd.lab1.entities.ProductoEntity;
-import tbd.lab1.models.UserNearestWarehousesRepository;
+import tbd.lab1.repositories.UserNearestWarehousesRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +27,14 @@ public class NearestWarehousesService {
         List<AlmacenEntity> warehouses = almacenService.getAllAlmacenes();
 
         List<UserNearestWarehousesCollection.Warehouse> nearestWarehouses = new ArrayList<>();
+
+        if (warehouses.isEmpty()) {
+            return;
+        }
+
+        if (userNearestWarehousesRepository.findByUserId(userId) != null) {
+            userNearestWarehousesRepository.deleteByUserId(userId);
+        }
 
         for (AlmacenEntity warehouse : warehouses) {
             String warehouseId = warehouse.getId_almacen().toString();
@@ -66,5 +74,9 @@ public class NearestWarehousesService {
                         Math.sin(lonDistance / 2) * Math.sin(lonDistance / 2);
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
         return R * c; // distancia en km
+    }
+
+    public UserNearestWarehousesCollection getNearestWarehouses(String userId) {
+        return userNearestWarehousesRepository.findByUserId(userId);
     }
 }
