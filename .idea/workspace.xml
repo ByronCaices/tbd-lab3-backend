@@ -4,52 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b59b180b-8b49-42d0-994f-c310438250f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AlmacenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/AlmacenRepository.java" afterDir="false" />
+    <list default="true" id="b701b889-5084-4606-83ab-7d1fdec722d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/EcommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/EcommerceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/AddressesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/AddressesCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/CustomerLocationCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/CustomerLocationCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/OrderHistoryCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/OrderHistoryCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/UserNearestWarehousesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/UserNearestWarehousesCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/NearestWarehousesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/NearestWarehousesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/models/UserNearestWarehousesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/UserNearestWarehousesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/NearestWarehousesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/NearestWarehousesService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;sebacassone&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sebacassone"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ByronCaices/tbd-lab3-backend&quot;,
-    &quot;accountId&quot;: &quot;aa05becb-2cee-4b9d-a58c-de7321604762&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ByronCaices/tbd-lab3-backend",
+    "accountId": "aa05becb-2cee-4b9d-a58c-de7321604762"
   }
-}</component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2qmWHXj0IBxuAbbeUwths5oczYz" />
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2r9BWR41LBjG4OvyKp99i21JXY5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,9 +104,7 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
+      <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -145,16 +136,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b59b180b-8b49-42d0-994f-c310438250f6" name="Changes" comment="" />
-      <created>1735268144262</created>
+      <changelist id="b701b889-5084-4606-83ab-7d1fdec722d8" name="Changes" comment="" />
+      <created>1735961442376</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735268144262</updated>
-      <workItem from="1735268145639" duration="5517000" />
-      <workItem from="1735443814718" duration="1797000" />
-      <workItem from="1735496953899" duration="9104000" />
-      <workItem from="1735510323983" duration="10902000" />
-      <workItem from="1735682766012" duration="4028000" />
+      <updated>1735961442376</updated>
+      <workItem from="1735961443869" duration="2897000" />
     </task>
     <servers />
   </component>
