@@ -20,7 +20,7 @@ public class ClienteEntity {
 
     private String posicion;
 
-    private String longitud;
+    private Double longitud;
 
-    private String latitud;
+    private Double latitud;
 }

@@ -10,6 +10,8 @@ services:
       PGDATA: /var/lib/postgresql/data
     volumes:
       - ./data:/var/lib/postgresql/data
+      # Montamos el SQL en la ruta especial
+      - ./dbCreate.sql:/docker-entrypoint-initdb.d/dbCreate.sql
     ports:
       - "5432:5432"
     networks:
