@@ -83,7 +83,7 @@ public class ClienteRepository implements ClienteRepositoryInt {
 
     // Actualiza un cliente existente
     public boolean updateCliente(ClienteEntity cliente) {
-        String sql = "UPDATE cliente SET nombre = :nombre, direccion = :direccion, email = :email, telefono = :telefono, telefono = :telefono, posicion = :posicion, longitud = :longitud, latitud = :latitud WHERE id_cliente = :id";
+        String sql = "UPDATE cliente SET nombre = :nombre, direccion = :direccion, email = :email, telefono = :telefono, posicion = :posicion, longitud = :longitud, latitud = :latitud WHERE id_cliente = :id";
         try (Connection con = sql2o.open()) {
             int affectedRows = con.createQuery(sql)
                     .addParameter("nombre", cliente.getNombre())
