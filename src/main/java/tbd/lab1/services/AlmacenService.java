@@ -9,6 +9,8 @@ import tbd.lab1.entities.ProductoEntity;
 import tbd.lab1.repositories.AlmacenRepository;
 
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 @Service
 @RequiredArgsConstructor
@@ -57,7 +59,7 @@ public class AlmacenService {
     }
 
     public List<ProductoEntity> obtenerProductosAlmacen(int idAlmacen) {
-        return almacenRepository.obtenerProductosAlmacen(idAlmacen);
+        List<ProductoEntity> productos = almacenRepository.obtenerProductosAlmacen(idAlmacen);
+        return new ArrayList<>(new HashSet<>(productos));
     }
-
 }

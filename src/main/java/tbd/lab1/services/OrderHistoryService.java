@@ -87,7 +87,7 @@ public class OrderHistoryService {
     }
 
     public void createOrderHistory(DetalleOrdenEntity detalleOrden) {
-        // Se ejecuta en caso de que se cree un nuevo detalle de orden
+        // Se ejecuta en caso de que se cree un nuevo detalle de or
         if (detalleOrden == null) {
             return;
         }

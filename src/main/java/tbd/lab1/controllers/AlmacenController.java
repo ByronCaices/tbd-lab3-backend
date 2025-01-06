@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tbd.lab1.entities.AlmacenEntity;
 import tbd.lab1.entities.OrdenEntity;
+import tbd.lab1.entities.ProductoEntity;
 import tbd.lab1.services.AlmacenService;
 import java.util.List;
 
@@ -68,6 +69,13 @@ public class AlmacenController {
         }
     }
 
-
-
+    @GetMapping("/productos-almacen/{idAlmacen}")
+    public ResponseEntity<List<ProductoEntity>> obtenerProductosAlmacen(@PathVariable int idAlmacen) {
+        try {
+            List<ProductoEntity> productosAlmacen = almacenService.obtenerProductosAlmacen(idAlmacen);
+            return ResponseEntity.ok(productosAlmacen);
+        } catch (Exception e) {
+            return ResponseEntity.notFound().build();
+        }
+    }
 }

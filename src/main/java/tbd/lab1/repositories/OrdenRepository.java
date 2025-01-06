@@ -20,12 +20,14 @@ public class OrdenRepository implements OrdenRepositoryInt {
         if (orden.getFecha_orden() == null ||
                 orden.getEstado() == null ||
                 orden.getTotal() == null ||
-                orden.getId_cliente() == null) {
+                orden.getId_cliente() == null ||
+                orden.getId_almacen() == null
+        ) {
 
             throw new IllegalArgumentException("Todos los campos deben estar completos: fecha_orden, estado, id_cliente y total.");
         }
 
-        String sql = "INSERT INTO orden (fecha_orden, estado, id_cliente, total) VALUES (:fecha_orden, :estado, :id_cliente, :total) RETURNING id_orden";
+        String sql = "INSERT INTO orden (fecha_orden, estado, id_cliente, total, id_almacen) VALUES (:fecha_orden, :estado, :id_cliente, :total, :id_almacen) RETURNING id_orden";
 
         try (Connection con = sql2o.open()) {
             Integer idOrden = con.createQuery(sql, true)
@@ -33,6 +35,7 @@ public class OrdenRepository implements OrdenRepositoryInt {
                     .addParameter("estado", orden.getEstado())
                     .addParameter("id_cliente", orden.getId_cliente())
                     .addParameter("total", orden.getTotal())
+                    .addParameter("id_almacen", orden.getId_almacen())
                     .executeUpdate()
                     .getKey(Integer.class); // Obtener el ID generado
 
@@ -46,7 +49,7 @@ public class OrdenRepository implements OrdenRepositoryInt {
 
     public OrdenEntity getOrdenById(Integer id) {
         String sql = "SELECT o.id_orden, o.fecha_orden, o.estado, " +
-                "o.id_cliente, o.total " +
+                "o.id_cliente, o.total, o.id_almacen " +
                 "FROM orden o " +
                 "JOIN cliente c ON o.id_cliente = c.id_cliente " +
                 "WHERE o.id_orden = :id";
@@ -67,7 +70,7 @@ public class OrdenRepository implements OrdenRepositoryInt {
 
     public List<OrdenEntity> getOrdenes() {
         String sql = "SELECT o.id_orden AS id_orden, o.fecha_orden AS fecha_orden, o.estado AS estado, " +
-                "o.id_cliente AS cliente, o.total AS total " +
+                "o.id_cliente AS cliente, o.total AS total, o.id_almacen AS almacen " +
                 "FROM orden o " +
                 "JOIN cliente c ON o.id_cliente = c.id_cliente";
 
