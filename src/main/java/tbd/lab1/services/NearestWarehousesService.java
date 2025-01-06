@@ -41,14 +41,12 @@ public class NearestWarehousesService {
             String warehouseName = warehouse.getNombre();
             String lat = warehouse.getLatitud();
             String lon = warehouse.getLongitud();
-            List<ProductoEntity> products = almacenService.obtenerProductosAlmacen(warehouse.getId_almacen());
 
             double distance = calculateDistance(userLat, userLon, Double.parseDouble(lat), Double.parseDouble(lon));
 
             UserNearestWarehousesCollection.Warehouse nearestWarehouse = new UserNearestWarehousesCollection.Warehouse();
             nearestWarehouse.setWarehouseId(warehouseId);
             nearestWarehouse.setWarehouseName(warehouseName);
-            nearestWarehouse.setProducts(products);
             nearestWarehouse.setDistance(distance);
 
             nearestWarehouses.add(nearestWarehouse);

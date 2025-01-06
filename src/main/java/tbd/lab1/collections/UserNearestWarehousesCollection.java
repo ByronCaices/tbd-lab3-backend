@@ -31,7 +31,6 @@ public class UserNearestWarehousesCollection {
     public static class Warehouse{
         private String warehouseId;
         private String warehouseName;
-        private List<ProductoEntity> products;
         private double distance;
     }
 
