@@ -12,6 +12,7 @@ services:
       - ./data:/var/lib/postgresql/data
       # Montamos el SQL en la ruta especial
       - ./dbCreate.sql:/docker-entrypoint-initdb.d/dbCreate.sql
+      - ./loadData.sql:/docker-entrypoint-initdb.d/loadData.sql
     ports:
       - "5432:5432"
     networks:
