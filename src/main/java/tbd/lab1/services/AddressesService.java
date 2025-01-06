@@ -18,7 +18,6 @@ public class AddressesService {
 
     public AddressesCollection  saveAddresses(AddressesCollection address, String id_user) {
         address.setIdUser(id_user);
-        System.out.println(address);
         return addressesRepository.save(address);
     }
 

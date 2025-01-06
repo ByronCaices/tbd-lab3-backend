@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b701b889-5084-4606-83ab-7d1fdec722d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/controllers/AlmacenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/OrdenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/repositories/OrdenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AlmacenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AlmacenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/UserNearestWarehousesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/collections/UserNearestWarehousesCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AddressesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/AddressesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/NearestWarehousesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tbd/lab1/services/NearestWarehousesService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735961442376</updated>
       <workItem from="1735961443869" duration="5325000" />
-      <workItem from="1736109673516" duration="10375000" />
+      <workItem from="1736109673516" duration="18693000" />
     </task>
     <servers />
   </component>
